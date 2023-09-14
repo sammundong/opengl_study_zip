@@ -11,10 +11,10 @@ GLint clickDown = 0;
 GLint fixX = 0; GLint fixY = 0;
 
 //Light Position 
-GLfloat lightOpos[] = { 0.0f,0.0f,3.0f,0.0f }; // À§Ä¡
-GLfloat lightOambient[] = { 1.0,0.0,0.0,1.0 }; // ÁÖº¯±¤
-GLfloat lightOdiffuse[] = { 1.0,1.0,0.0,1.0 }; // È®»ê±¤
-GLfloat lightOspecular[] = { 0.0,0.0,1.0,1.0 }; // °æ¸é±¤
+GLfloat lightOpos[] = { 0.0f,0.0f,3.0f,0.0f }; // ìœ„ì¹˜
+GLfloat lightOambient[] = { 1.0,0.0,0.0,1.0 }; // ì£¼ë³€ê´‘
+GLfloat lightOdiffuse[] = { 1.0,1.0,0.0,1.0 }; // í™•ì‚°ê´‘
+GLfloat lightOspecular[] = { 0.0,0.0,1.0,1.0 }; // ê²½ë©´ê´‘
 
 GLint GenerateCallList() {
     GLint lid = glGenLists(1);
@@ -89,7 +89,7 @@ void MyDisplay() {
     glLoadIdentity();
     gluLookAt(0.0, 0.0, 8.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
 
-    //LightO Position (Á¶¸í °íÁ¤)
+    //LightO Position (ì¡°ëª… ê³ ì •)
     //glLightfv(GL_LIGHT0, GL_POSITION, lightOpos);
 
     glRotatef(xValue, 1.0, 0.0, 0.0);
@@ -142,17 +142,17 @@ int main(int argc, char* argv[]) {
     glEnable(GL_DEPTH_TEST);
     glEnable(GL_LIGHT0);
 
-    //0¹ø ±¤¿ø Æ¯¼º ÇÒ´ç 
-    glLightfv(GL_LIGHT0, GL_POSITION, lightOpos); // À§Ä¡
-    glLightfv(GL_LIGHT0, GL_AMBIENT, lightOambient); // ÁÖº¯±¤
-    glLightfv(GL_LIGHT0, GL_DIFFUSE, lightOdiffuse); // È®»ê±¤
-    glLightfv(GL_LIGHT0, GL_SPECULAR, lightOspecular); // °æ¸é±¤ 
+    //0ë²ˆ ê´‘ì› íŠ¹ì„± í• ë‹¹ 
+    glLightfv(GL_LIGHT0, GL_POSITION, lightOpos); // ìœ„ì¹˜
+    glLightfv(GL_LIGHT0, GL_AMBIENT, lightOambient); // ì£¼ë³€ê´‘
+    glLightfv(GL_LIGHT0, GL_DIFFUSE, lightOdiffuse); // í™•ì‚°ê´‘
+    glLightfv(GL_LIGHT0, GL_SPECULAR, lightOspecular); // ê²½ë©´ê´‘ 
 
     g_standforBunnyID = GenerateCallList();
 
     glShadeModel(GL_SMOOTH);
 
-    //glEnable(GL_COLOR_MATERIAL); // ¹°Ã¼ÀÇ »ö»óÀÌ ³ªÅ¸³ªµµ·Ï ÁöÁ¤ 
+    //glEnable(GL_COLOR_MATERIAL); // ë¬¼ì²´ì˜ ìƒ‰ìƒì´ ë‚˜íƒ€ë‚˜ë„ë¡ ì§€ì • 
 
     glutDisplayFunc(MyDisplay);
     glutKeyboardFunc(MyKeyboard);
