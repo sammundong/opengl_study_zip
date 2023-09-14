@@ -1,0 +1,12 @@
+﻿  bunny.cpp
+C:\Users\USER\Desktop\opengl\learnopengl\learnopengl\BunnyModel.h(24466,1): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\USER\Desktop\opengl\learnopengl\learnopengl\BunnyModel.h(32618,1): warning C4305: '초기화 중': 'double'에서 'GLfloat'(으)로 잘립니다.
+C:\Users\USER\Desktop\opengl\learnopengl\learnopengl\BunnyModel.h(32620,70): warning C4305: '초기화 중': 'double'에서 'GLfloat'(으)로 잘립니다.
+C:\Users\USER\Desktop\opengl\learnopengl\learnopengl\BunnyModel.h(32621,65): warning C4305: '초기화 중': 'double'에서 'GLfloat'(으)로 잘립니다.
+C:\Users\USER\Desktop\opengl\learnopengl\learnopengl\BunnyModel.h(32622,62): warning C4305: '초기화 중': 'double'에서 'GLfloat'(으)로 잘립니다.
+C:\Users\USER\Desktop\opengl\learnopengl\learnopengl\bunny.cpp(29,26): error C2065: 'normals': 선언되지 않은 식별자입니다.
+C:\Users\USER\Desktop\opengl\learnopengl\learnopengl\bunny.cpp(30,26): error C2065: 'vertices': 선언되지 않은 식별자입니다.
+C:\Users\USER\Desktop\opengl\learnopengl\learnopengl\bunny.cpp(95,15): warning C4244: '인수': 'GLint'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\opengl\learnopengl\learnopengl\bunny.cpp(96,15): warning C4244: '인수': 'GLint'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\opengl\learnopengl\learnopengl\bunny.cpp(97,15): warning C4244: '인수': 'GLint'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\USER\Desktop\opengl\learnopengl\learnopengl\bunny.cpp(136,41): warning C4305: '인수': 'double'에서 'GLclampf'(으)로 잘립니다.

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\기본요소 및 도형">
+      <UniqueIdentifier>{66723b03-664f-48a5-a436-803fdc44115f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GLUT기본도형">
+      <UniqueIdentifier>{c65d606b-58f9-4659-a622-9668da536d4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\변환행렬">
+      <UniqueIdentifier>{5ba89df8-ad18-45c8-aafa-44ff762436e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\카메라">
+      <UniqueIdentifier>{fad6463b-cb53-49c0-991d-8ff9effff3da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\robot모델링">
+      <UniqueIdentifier>{57d160cb-12c8-4919-b478-ccde50cfeb57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\viewport">
+      <UniqueIdentifier>{be355a27-6ba7-42b5-807a-593d8049d567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\deptest">
+      <UniqueIdentifier>{30a52bfa-0f48-427b-80a3-ac1a3810a265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\조명과음영">
+      <UniqueIdentifier>{961807a1-82f3-4caf-8748-2327bc42cecd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="modelview.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="bunny_z.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gluSolidmodel.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="quiz.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="조명.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GL_LINE_STRIPS.cpp">
+      <Filter>소스 파일\기본요소 및 도형</Filter>
+    </ClCompile>
+    <ClCompile Include="GL_POINTS.cpp">
+      <Filter>소스 파일\기본요소 및 도형</Filter>
+    </ClCompile>
+    <ClCompile Include="GL_LINES.cpp">
+      <Filter>소스 파일\기본요소 및 도형</Filter>
+    </ClCompile>
+    <ClCompile Include="GL_LINE_LOOP.cpp">
+      <Filter>소스 파일\기본요소 및 도형</Filter>
+    </ClCompile>
+    <ClCompile Include="GL_TRIANGLES.cpp">
+      <Filter>소스 파일\기본요소 및 도형</Filter>
+    </ClCompile>
+    <ClCompile Include="GL_TRIANGLE_STRIP.cpp">
+      <Filter>소스 파일\기본요소 및 도형</Filter>
+    </ClCompile>
+    <ClCompile Include="GL_POLYGON.cpp">
+      <Filter>소스 파일\기본요소 및 도형</Filter>
+    </ClCompile>
+    <ClCompile Include="glutWireSphere.cpp">
+      <Filter>소스 파일\GLUT기본도형</Filter>
+    </ClCompile>
+    <ClCompile Include="glutSolidCube.cpp">
+      <Filter>소스 파일\GLUT기본도형</Filter>
+    </ClCompile>
+    <ClCompile Include="glutWireCone.cpp">
+      <Filter>소스 파일\GLUT기본도형</Filter>
+    </ClCompile>
+    <ClCompile Include="glutWireTeapot.cpp">
+      <Filter>소스 파일\GLUT기본도형</Filter>
+    </ClCompile>
+    <ClCompile Include="이벤트종합.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="변황행렬스택.cpp">
+      <Filter>소스 파일\변환행렬</Filter>
+    </ClCompile>
+    <ClCompile Include="변환행렬스택%28성%29.cpp">
+      <Filter>소스 파일\변환행렬</Filter>
+    </ClCompile>
+    <ClCompile Include="성모양_이벤트.cpp">
+      <Filter>소스 파일\변환행렬</Filter>
+    </ClCompile>
+    <ClCompile Include="성_카메라.cpp">
+      <Filter>소스 파일\카메라</Filter>
+    </ClCompile>
+    <ClCompile Include="robot모델링.cpp">
+      <Filter>소스 파일\robot모델링</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_viewer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="viewport%28미지정%29.cpp">
+      <Filter>소스 파일\viewport</Filter>
+    </ClCompile>
+    <ClCompile Include="viewport(지정).cpp">
+      <Filter>소스 파일\viewport</Filter>
+    </ClCompile>
+    <ClCompile Include="viewprot4개.cpp">
+      <Filter>소스 파일\viewport</Filter>
+    </ClCompile>
+    <ClCompile Include="viewport(토끼).cpp">
+      <Filter>소스 파일\viewport</Filter>
+    </ClCompile>
+    <ClCompile Include="은면제거.cpp">
+      <Filter>소스 파일\deptest</Filter>
+    </ClCompile>
+    <ClCompile Include="bunny.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_음영문제.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BunnyModel.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
